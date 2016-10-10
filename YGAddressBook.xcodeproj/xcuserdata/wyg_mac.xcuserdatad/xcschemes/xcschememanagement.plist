@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>YGAddressBook.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C223F23F1DAB9A0100B56921</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C223F2581DAB9A0200B56921</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C223F2631DAB9A0200B56921</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
