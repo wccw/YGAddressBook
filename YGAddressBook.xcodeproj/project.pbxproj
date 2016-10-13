@@ -15,6 +15,10 @@
 		C223F2531DAB9A0100B56921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C223F2511DAB9A0100B56921 /* LaunchScreen.storyboard */; };
 		C223F25E1DAB9A0200B56921 /* YGAddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C223F25D1DAB9A0200B56921 /* YGAddressBookTests.m */; };
 		C223F2691DAB9A0200B56921 /* YGAddressBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C223F2681DAB9A0200B56921 /* YGAddressBookUITests.m */; };
+		C223F2781DAC7CA300B56921 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C223F2771DAC7CA300B56921 /* AddressBook.framework */; };
+		C223F27B1DACD12F00B56921 /* ContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C223F27A1DACD12F00B56921 /* ContactModel.m */; };
+		C223F27F1DACD59D00B56921 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C223F27D1DACD59D00B56921 /* ContactTableViewCell.m */; };
+		C223F2801DACD59D00B56921 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C223F27E1DACD59D00B56921 /* ContactTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		C223F2641DAB9A0200B56921 /* YGAddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGAddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C223F2681DAB9A0200B56921 /* YGAddressBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGAddressBookUITests.m; sourceTree = "<group>"; };
 		C223F26A1DAB9A0200B56921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C223F2771DAC7CA300B56921 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		C223F2791DACD12F00B56921 /* ContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactModel.h; sourceTree = "<group>"; };
+		C223F27A1DACD12F00B56921 /* ContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactModel.m; sourceTree = "<group>"; };
+		C223F27C1DACD59D00B56921 /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		C223F27D1DACD59D00B56921 /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		C223F27E1DACD59D00B56921 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C223F2781DAC7CA300B56921 /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,7 @@
 				C223F25C1DAB9A0200B56921 /* YGAddressBookTests */,
 				C223F2671DAB9A0200B56921 /* YGAddressBookUITests */,
 				C223F2411DAB9A0100B56921 /* Products */,
+				C223F2761DAC7CA300B56921 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +117,11 @@
 				C223F2471DAB9A0100B56921 /* AppDelegate.m */,
 				C223F2491DAB9A0100B56921 /* ViewController.h */,
 				C223F24A1DAB9A0100B56921 /* ViewController.m */,
+				C223F2791DACD12F00B56921 /* ContactModel.h */,
+				C223F27A1DACD12F00B56921 /* ContactModel.m */,
+				C223F27C1DACD59D00B56921 /* ContactTableViewCell.h */,
+				C223F27D1DACD59D00B56921 /* ContactTableViewCell.m */,
+				C223F27E1DACD59D00B56921 /* ContactTableViewCell.xib */,
 				C223F24C1DAB9A0100B56921 /* Main.storyboard */,
 				C223F24F1DAB9A0100B56921 /* Assets.xcassets */,
 				C223F2511DAB9A0100B56921 /* LaunchScreen.storyboard */,
@@ -138,6 +155,14 @@
 				C223F26A1DAB9A0200B56921 /* Info.plist */,
 			);
 			path = YGAddressBookUITests;
+			sourceTree = "<group>";
+		};
+		C223F2761DAC7CA300B56921 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C223F2771DAC7CA300B56921 /* AddressBook.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +232,7 @@
 				TargetAttributes = {
 					C223F23F1DAB9A0100B56921 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LEBTD45VXL;
 						ProvisioningStyle = Automatic;
 					};
 					C223F2581DAB9A0200B56921 = {
@@ -246,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C223F2801DACD59D00B56921 /* ContactTableViewCell.xib in Resources */,
 				C223F2531DAB9A0100B56921 /* LaunchScreen.storyboard in Resources */,
 				C223F2501DAB9A0100B56921 /* Assets.xcassets in Resources */,
 				C223F24E1DAB9A0100B56921 /* Main.storyboard in Resources */,
@@ -275,6 +302,8 @@
 			files = (
 				C223F24B1DAB9A0100B56921 /* ViewController.m in Sources */,
 				C223F2481DAB9A0100B56921 /* AppDelegate.m in Sources */,
+				C223F27F1DACD59D00B56921 /* ContactTableViewCell.m in Sources */,
+				C223F27B1DACD12F00B56921 /* ContactModel.m in Sources */,
 				C223F2451DAB9A0100B56921 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +451,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LEBTD45VXL;
 				INFOPLIST_FILE = YGAddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyg.image.YGAddressBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +464,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LEBTD45VXL;
 				INFOPLIST_FILE = YGAddressBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wyg.image.YGAddressBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +538,7 @@
 				C223F26F1DAB9A0200B56921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C223F2701DAB9A0200B56921 /* Build configuration list for PBXNativeTarget "YGAddressBookTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +547,7 @@
 				C223F2721DAB9A0200B56921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C223F2731DAB9A0200B56921 /* Build configuration list for PBXNativeTarget "YGAddressBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +556,7 @@
 				C223F2751DAB9A0200B56921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
